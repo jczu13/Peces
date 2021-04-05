@@ -1,0 +1,17 @@
+<h1>Peces de REST GET</h1>
+<div class="col-sm-6">
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Talla</th>
+            <th>Precio</th>
+        </tr>
+        <tr *ngFor="let pez of lstpeces">
+            <td>{{pez.nombre}}</td>
+            <td>{{pez.especie}}</td>
+            <td>{{pez.talla}}</td>
+            <td>{{pez.precio}}</td>
+        </tr>
+    </table>
+</div>
